@@ -575,3 +575,57 @@ body {
     right: 510px;
 }
 
+.first-image {
+    height: 310px;
+    object-fit: cover;
+    object-position: left -29px;
+}
+
+.contact-form  {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 30px;
+}
+
+
+
+.input-control {
+    position: relative;
+}
+
+.input {
+    border: 1px solid #f4f5ff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input:focus {
+    outline-color: #2945FF;
+}
+
+.label {
+    position: absolute;
+    left: 20px;
+    transform: translateY(7px);
+    color: #bbb88b;
+    transition: all 0.3s;
+    background-color: white;
+    padding: 3px 5px;
+}
+
+.input:focus + .label {
+    color: #2945FF;
+    transform: translateY(-25px) scale(0.8);
+}
+
+@media (min-width: 768px) {
+    .form-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+}
