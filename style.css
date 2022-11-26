@@ -20,23 +20,28 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    margin-top: 30px;
-    margin-left: 150px;
+
  }
 
- .fashion-list::after {
+ .fashion-list::before {
     content: "";
     position: absolute;
     width: 14px;
     height: 4px;
     background: #2945ff;
-    top: 50px;
-    left: 334px;
+    top: 20px;
+    left: 180px;
  }
 
  .fashion-item {
     list-style-type: none;
-    padding: 36px 40px;
+    padding: 20px 40px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+
     
  }
 
@@ -52,16 +57,8 @@ body {
  }
 
  .fashion-item:hover {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 14px 24px;
-    gap: 10px;
     background: #2945FF;
-    border-radius: 24px;
-    flex: none;
-    align-self: flex-start;
-    flex-grow: 0;
+    color: #ffffff;
  }
 
  .section-first {
@@ -115,7 +112,6 @@ body {
     padding-right: 150px;
     padding-top: 112px;
     position: relative;
-    align-items: flex-start ;
  }
 
  .top-img {
@@ -156,22 +152,426 @@ body {
         display: none;
     }
 
+    .img-container {
+        align-self: flex-start;
+
+    }
+
     .section-first {
         display: flex;
         flex-direction: column-reverse;
-        padding-left: 38px; 
+        margin: 0 auto;
     }
 
-    .bottom-img {
-        right: -154px;
+    .text-container {
+        margin-top: 28px;
     }
-    
-    
+
     .title {
+        width: 327px;
         font-size: 51px;
     }
+
+    .text {
+        font-size: 16px;
+        color: #393F4D;
+        width: 301px;
+    }
+
+    .btn {
+        padding: 23px 105px;
+    } 
+}
+
+/* Latest updates section */
+
+.latest-section {
+    margin: 70px 147px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-news {
+    width: 116px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #2945FF;
+    padding-bottom: 26px;
+}
+
+.title-latest-updates {
+    width: 356px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 111%;
+    letter-spacing: -0.03em;
+    color: #000545;
+    padding-bottom: 55px;
+}
+
+.parent-red-skirts {
+    position: relative; 
+    padding-left: 30px;
+}
+
+.red-skirts {
+    position: absolute;
+    z-index: 1;
+}
+
+.inside-img {
+    position: absolute;
+    top: -68px;
+    left: 0;
+}
+
+.info-div {
+    margin-left: 540px;
+
+}
+
+.date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #A5AEED;
+}
+
+.title-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 75px;
+    letter-spacing: -0.03em;
+    color: #000545;
+    margin-top: -23px;
+}
+
+.text-red-skirt {
+    width: 395px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #393F4D;
+    margin-top: -55px;
+}
+
+.learn-more {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #2945FF;
+}   
+
+.parent-second-div {
+    display: flex;
+    align-items: center;
+    padding: 286px 153px 147px 0;
+}
+
+.second-div {
+    margin-right: 150px;
     
+}
+
+.parent-best-outdoor-pic {
+    margin-left: 150px;
+    position: relative;
+}
+
+.second-inside-image {
+    position: absolute;
+    top: -6%;
+    left: -7%;
+    z-index: -1;
+}
+
+.blue-line {
+    width: 21px;
+    height: 2px;
+    background-color: #2945FF;
+}
+
+
+/* Bags section */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 80px auto;
+    padding: 0 30px;
+}
+
+.info-title {
+    width: 100%;
+    color: #2945FF;
+    letter-spacing: -0.03em;
+    font-size: 24px;
+}
+
+.general-title {
+    width: 100%;
+    color: #000545;
+    letter-spacing: -0.03em;
+    font-size: 38px;
+}
+
+.bag-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.bag {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.bag-title {
+    width: 100%;
+    font-size: 24px;
+    line-height: 111%;
+    letter-spacing: -0.03em;
+}
+
+.bag-info-text {
+    width: 100%;
+    color: #393F4D;
+    letter-spacing: -0.03em;
+}
+
+.more-info {
+    color: #2945FF;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.03em;        
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.more-info::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #2945FF;
+    position: absolute;
+    bottom: -9px;
+}
+
+.bag:hover {
+    background: #2945FF;
+    border-radius: 23px;
+}
+
+.bag:hover .bag-title,
+.bag:hover .bag-info-text, 
+.bag:hover .more-info {
+    color: white;
+}
+
+@media (min-width:768px) {
+    .container {
+        width:100%;
+    }
+
+    .info-title {
+        padding:  0 30px;
+    }
     
-  
+    .general-title {
+        padding: 0 0 10px 30px;
+    }
+
+    .bag-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bag {
+        margin: 0 10px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .more-info::after {
+        left: 0;
+    }
+    
+    .bag:hover .bag-img,
+    .bag:hover .bag-title,
+    .bag:hover .bag-info-text,
+    .bag:hover .more-info  {
+        padding-left: 10px;
+    }
+}
+
+/* What you have been saying section  */
+
+.review {
+    padding-left: 150px;
+    display: flex;
+    margin: 0 -30px;
+    width: 100%;
+    overflow-x: auto;   
+}
+
+.review::-webkit-scrollbar {
+    width: 10px;
 }
  
+.review::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.review::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.title-saying {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 111%;
+    letter-spacing: -0.03em;
+    color: #000545;
+    padding-left: 150px;
+}
+
+.review-container {
+    width: 466px;
+    border: 2px solid green;
+    text-align: center;
+    padding: 25px 57px;
+    margin-top: 68px;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.review-image {
+    border-radius: 50%;
+}
+
+.review-container-title {
+    font-size: 34px;
+    color: #000545;
+    letter-spacing: -0.03em;
+}
+
+.hermes {
+    font-size: 18px;
+    color: #2945FF;
+    letter-spacing: -0.03em;
+    margin-top: -25px;
+}
+
+.review-container-text {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13.8552px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #393F4D;
+}
+
+.review-container-bttton {
+    background: #FFFFFF;
+    border: 0.694639px solid #2945FF;
+    border-radius: 69px;
+    padding: 19px 62px;
+}
+
+/* Want fits section */
+
+.want-fits {
+    position: relative;
+}
+
+.image-parent {
+    padding: 131px 150px 0;
+
+}
+
+.image-parent::after {
+    position: absolute;
+    content: "";
+    width: 1062px;
+    height: 563px;
+    background-color: #2945FF;
+    top: 117px;
+    left: 250px;
+    z-index: -1;
+}
+
+.picture-inside {
+    position: absolute;
+    top: 117px;
+    left: 134px;
+    z-index: -1;
+}
+
+.picture-inside-second {
+    position: absolute;
+    bottom: -12px;
+    right: 205px;
+    z-index: -1;
+}
+
+.want-fits-info {
+    z-index: 1;
+    padding: 0 85px 15px 0;
+}
+
+.want-fits-title {
+    position: absolute;
+    width: 380px;
+    color: white;
+    font-size: 68px;
+    top: 190px;
+    right: 300px;
+}
+
+.want-fits-text {
+    position: absolute;
+    width: 365px;
+    color: #FFFFFF;
+    bottom: 266px;
+    right: 310px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+}
+
+.want-fits-btn {
+    position: absolute;
+    padding: 19px 46px;
+    background: #2945FF;
+    border-radius: 100px;
+    border: #2945FF;
+    bottom: 158px;
+    right: 510px;
+}
+
